@@ -33,16 +33,15 @@ img{
 }
 .content{
     max-width: 960px;
+    max-height: 500px;
     width: 100%;
-    height: 80vh;
+    height: 100%;
     background-color: white;
     box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); /* horizontal difference vertical difference color amplitud*/
-    border-radius: 10px;
+    border-radius: 4px;
     position: relative;
-    padding:1em;
-    overflow-y: scroll;
-    box-sizing: border-box;
-    font-size: 1.2rem;
+    padding:1.8em;
+    overflow: scroll;
 }
 
 
@@ -60,6 +59,7 @@ th{
 }
 
 .actions{
+    position: absolute;
     top:1em;
     right:1em;
 }
@@ -119,6 +119,7 @@ table td, .table th{
     font-weight: bold;
     font-size:1.2em;
     display: inline-block;
+    margin-top:2em;
 }
 
 .animated{
@@ -148,7 +149,7 @@ table td, .table th{
 .position{
     background-color: rgb(105, 90, 201);
     color:white;
-    padding: 10´x;
+    padding: 0.5em;
     border-radius: 4px;
     margin-right:0.5em;
 }
