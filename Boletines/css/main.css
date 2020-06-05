@@ -149,8 +149,8 @@ table td, .table th{
     background-color: rgb(105, 90, 201);
     color:white;
     padding: 0.5em;
-    border-radius: 0px;
-    margin-right:0.5em;
+    border-radius: 4px;
+    /*margin-right:0.5em;*/
 }
 
 @media(max-width:600px){
